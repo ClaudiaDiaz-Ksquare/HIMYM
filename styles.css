@@ -20,16 +20,11 @@ html * {
   margin: 0;
 }
 
-/* Navbar */
-/* header {
-  background-color: #9D7549;
-} */
-
 /* =================================  M E E T  T H E  T E A M  ================================= */
 
 /* Main Area */
 main.mainArea {
-  margin-top: 1rem;
+  margin-top: 2rem;
   background: url(./imgs/yellow.jpeg) no-repeat center;
   background-size:cover;
   background-position: center;
@@ -38,7 +33,6 @@ main.mainArea {
 
 /*Top Main*/
 section.topMain {  
-  /*background-color: white;*/
   display: grid;
   grid-template-columns: 1fr 2fr;
   justify-self: center;
@@ -103,9 +97,8 @@ img.card-photo {
 
 div.ted, div.barney, div.robin {
   background-color: #9A5151;
-  border: solid 1px white;
   border-radius: 5px;
-  box-shadow: 10px 15px 15px #9A5151;
+  box-shadow: 10px 15px 15px #878585;
   display: flex;
   flex-direction: column;
   justify-self:center;
@@ -160,6 +153,7 @@ p.card-subt {
 
 .events-list{
     background-color: #9A5151;
+    box-shadow: 10px 15px 15px #827f7f;
     color: #FFFFFF;
     height: 58vh;
     width: 40vw;
@@ -182,10 +176,11 @@ p.card-subt {
     align-self: flex-end;
     background-color: #F9CD48;
     margin-right: 3rem;
-
-    box-shadow: 3px 3px #2f2f2f;
+    box-shadow: 5px 5px 13px #373737;
     border-radius: 0.5rem;
     cursor: pointer;
+    color:#000000;
+    padding: 0.3rem 1rem;
 }
 
 .events-btn:hover{
@@ -195,14 +190,6 @@ p.card-subt {
 .events-btn:active{
     background-color:#F9CD48;
     box-shadow: none;
-}
-
-.events-btn a{
-    font-size: 140%;
-    font-family: Helvetica,Arial,sans-serif;
-    color:#000000;
-    text-decoration: none;
-    padding: 1.5rem;
 }
 
 .legendary{
@@ -250,7 +237,7 @@ p.card-subt {
     padding: 0 2rem;
 
     font-family: Helvetica,Arial,sans-serif;
-    box-shadow: 3px 3px #2f2f2f;
+    box-shadow: 5px 5px 13px #6d6b6b;
     font-size: 3vh;
     border-radius: 0.5rem;
     height: 8%;
