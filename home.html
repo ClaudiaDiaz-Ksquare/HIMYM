@@ -17,8 +17,23 @@
 </head>
 <body>
 
+  <nav class="navBar fadeTop scroll-content">
+    <div class="navContent">
+      <a href="">
+        <img src="imgs/How-I-Met-Your-Mother-Logo.png" alt="" class="logoDes">
+      </a>
+
+      <ul class="itemsNav">
+        <li class="itemLink"><a href="" class="linkDecoration">Home</a></li>
+        <li class="itemLink"><a href="#events" class="linkDecoration">Event</a></li>
+        <li class="itemLink"><a href="#meetTheTeam" class="linkDecoration">Meet the team</a></li>
+        <li class="itemLink"><a href="#contact" class="linkDecoration">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
   <section class="bodyConf">
-    
+
     <div class="mainContainer">
       <div class="bannerContainer">
         <img src="imgs/met-your-mother-season-text-alphabet-word-logo-transparent-png-1054954.png" alt=""
@@ -26,22 +41,6 @@
         <p class="butContainer"><button class="joinBut">Join us!</button></p>
         <img src="https://dg31sz3gwrwan.cloudfront.net/fanart/75760/936855-0-q80.jpg" alt="" class="bannerCast">
       </div>
-      
-
-      <nav class="navBar fadeTop scroll-content">
-        <div class="navContent">
-          <a href="#">
-            <img src="imgs/How-I-Met-Your-Mother-Logo.png" alt="" class="logoDes">
-          </a>
-
-          <ul class="itemsNav">
-            <li class="itemLink"><a href="#" class="linkDecoration">Home</a></li>
-            <li class="itemLink"><a href="#events" class="linkDecoration">Event</a></li>
-            <li class="itemLink"><a href="#meetTheTeam" class="linkDecoration">Meet the team</a></li>
-            <li class="itemLink"><a href="#contact" class="linkDecoration">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
       
 
       <div class="content">
@@ -149,12 +148,12 @@
           <a class="links" href="#contact">You need help?</a>
         </div>
         <div class="sites-ct">
-          <a class="links" href="#">
+          <a class="links" href="">
             <img class="f-logo" src="./imgs/himym.jpg" alt="logo" />
           </a>
         </div>
         <div class="sites-rg">
-          <a class="links" href="#">More events comming soon!</a>
+          <a class="links" href="">More events comming soon!</a>
         </div>
       </div>
     </div>
@@ -164,7 +163,7 @@
     window.addEventListener('scroll', function()  {
     let elements = document.getElementsByClassName('scroll-content');
     let screenSize = window.innerHeight;
- 
+
          for(var i = 0; i < elements.length; i++) {
          var element = elements[i];
  
@@ -173,7 +172,6 @@
          } else {
            element.classList.remove('visible');
          }
- 
        }
     });
    </script>
