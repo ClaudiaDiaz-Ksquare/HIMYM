@@ -43,16 +43,18 @@
 }
 
 .joinBut{
+    all:unset;
     padding: 15 40 15 40px;
     font-size: 20px;
     background-color: #F9CD48;
     border-color: #F9CD48;
     border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 10px 10px 15px #000000;
 }
 
 .joinBut:hover{
     background-color: #f6db88;
-    border-color: #000000;
 }
 
 .logoDes{
@@ -99,6 +101,18 @@
 .linkDecoration{
     text-decoration: none;
     color: white;
+}
+
+.linkDecoration:hover{
+    font-size: larger;
+    text-shadow: 3px 3px 10px #F9D444;
+}
+
+.nav-contact-btn{
+    all: unset;
+    cursor: pointer;
+    color: white;
+
 }
 
 .sticky {
@@ -184,8 +198,9 @@
     border-style: none;
     font-family: 'Gotu';
     letter-spacing: -0.015em;
-
+    cursor: pointer;
 }
+
 .registerButton:hover{
     background-color: #4d7d7d;
 }

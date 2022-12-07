@@ -9,7 +9,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gotu:wght@900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet"> 
 
 
@@ -27,7 +27,8 @@
         <li class="itemLink"><a href="#home" class="linkDecoration">Home</a></li>
         <li class="itemLink"><a href="#events" class="linkDecoration">Event</a></li>
         <li class="itemLink"><a href="#meetTheTeam" class="linkDecoration">Meet the team</a></li>
-        <li class="itemLink"><a href="#contact" class="linkDecoration">Contact</a></li>
+        <li class="itemLink"><button class="linkDecoration nav-contact-btn" data-tf-popup="Mhitvdkv" data-tf-iframe-props="title=HIMYM Project ITK" data-tf-medium="snippet">
+          Contact </button></li>
       </ul>
     </div>
   </nav>
@@ -38,7 +39,7 @@
       <div class="bannerContainer">
         <img src="imgs/met-your-mother-season-text-alphabet-word-logo-transparent-png-1054954.png" alt=""
         class="bannerLogo">
-        <p class="butContainer"><button class="joinBut">Join us!</button></p>
+        <p class="butContainer"><a type="button" class="joinBut" href="#home">Join us!</a></p>
         <img src="https://dg31sz3gwrwan.cloudfront.net/fanart/75760/936855-0-q80.jpg" alt="" class="bannerCast">
       </div>
       
@@ -79,7 +80,7 @@
             <li>Reading table of never shown before material &emsp; | &emsp; 17:00</li>
             <li>Closing ceremony &emsp; | &emsp; 18:00</li>
         </ul>
-        <button class="events-btn"> Join Us!</button>
+        <a type"button" href="#meetTheTeam" class="events-btn"> Meet our cast</a>
     </article>
     <img src="imgs/barney.png" alt="Barney with a quote" class="legendary">
     <img src="imgs/group.png" alt="Cast group image" class="group">
@@ -163,6 +164,8 @@
       </div>
     </div>
   </footer>
+
+  <div data-tf-popover="Mhitvdkv" data-tf-button-color="#6CB5B5" data-tf-iframe-props="title=HIMYM Project itk" data-tf-medium="snippet" style="all:unset;"></div>
 
   <script>
     window.addEventListener('scroll', function()  {

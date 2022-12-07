@@ -116,10 +116,13 @@ div.ted:hover, div.barney:hover, div.robin:hover {
 }
 
 h4.card-title {
+  font-family: sans-serif;;
   padding: 4px;
   margin: 0;
   font-size: 1.2rem;
   text-align: center;
+  font-weight: 900;
+  text-shadow: 0 0 10px #f6da86;
 }
 
 p.card-subt {
@@ -173,9 +176,12 @@ p.card-subt {
 }
 
 .events-btn{
+    all: unset;
+    font-family: sans-serif;
+    font-size: smaller;
     align-self: flex-end;
     background-color: #F9CD48;
-    margin-right: 3rem;
+    margin-right: 4rem;
     box-shadow: 5px 5px 13px #373737;
     border-radius: 0.5rem;
     cursor: pointer;
